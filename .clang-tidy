@@ -1,0 +1,8 @@
+Checks: |
+  *,
+  -cppcoreguidelines-avoid-magic-numbers,
+  -llvm-header-guard,
+  -google-readability-todo
+
+# Emit diagnostics from all non-system header files as well.
+HeaderFilterRegex: '.*'
