@@ -1,0 +1,4 @@
+-std=c99
+-D_POSIX_C_SOURCE=200809L
+-isystem/tmp/cujo-lua53
+-Weverything
